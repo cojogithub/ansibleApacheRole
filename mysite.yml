@@ -2,6 +2,8 @@
 - hosts: 
    172.31.29.173
    172.31.20.1
-   172.31.29.173
+   172.31.32.133
 - roles: 
     - apache    
+become: yes
+  become_user: ansible
