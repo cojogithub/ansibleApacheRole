@@ -8,4 +8,4 @@
 - name: Run a command as the ansible user
   become: yes
   become_method: su
-  become_user: ansible
+  become_user: root
