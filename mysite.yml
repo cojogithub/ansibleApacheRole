@@ -4,6 +4,7 @@
    172.31.20.1
    172.31.32.133
 - roles: 
-    - apache    
-- become: yes
-   become_user: ansible
+    - apache 
+- name: Run a command as the ansible user
+  become: yes
+  become_user: ansible
