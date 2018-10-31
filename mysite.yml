@@ -5,7 +5,6 @@
    172.31.32.133
 - roles: 
     - apache 
-- name: Run a command as the ansible user
-  become: yes
-  become_method: su
-  become_user: root
+- name: Testing...   
+  hosts: all
+  become: true
